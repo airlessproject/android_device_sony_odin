@@ -33,7 +33,7 @@ $(call inherit-product, device/sony/odin/odin.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_odin
-PRODUCT_DEVICE := odin
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
-PRODUCT_MODEL := Xperia ZL
+PRODUCT_DEVICE := C6503
+PRODUCT_MODEL := C6503
