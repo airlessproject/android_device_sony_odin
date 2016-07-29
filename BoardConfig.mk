@@ -40,3 +40,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 12595400704
 BOARD_HARDWARE_CLASS += device/sony/odin/cmhw
 
 TARGET_DISPLAY_GAMMA_DISABLED := true
+
+# TWRP
+TW_THEME := portrait_hdpi
+TW_BRIGHTNESS_PATH := /sys/class/leds/lm3533-lcd-bl-1/brightness
