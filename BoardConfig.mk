@@ -27,6 +27,15 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/odin/bluetooth
 
 TARGET_KERNEL_CONFIG := fusion3_odin_defconfig
 
+# Optimizations
+CLANG_O3 := true
+STRICT_ALIASING := true
+KRAIT_TUNINGS := true
+GRAPHITE_OPTS := true
+ENABLE_GCCONLY := true
+ENABLE_SANITIZE := true
+USE_PIPE := true
+
 # Healthd
 BACKLIGHT_PATH := /sys/class/leds/lm3533-lcd-bl-1/brightness
 SECONDARY_BACKLIGHT_PATH := /sys/class/leds/lm3533-lcd-bl-2/brightness
